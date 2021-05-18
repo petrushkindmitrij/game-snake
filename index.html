@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake</title>
+  <link rel="stylesheet" href="main.css"> 
+  <script src="main.js" defer type="module"></script>
+</head>
+<body>
+
+  <div class="backdround-board">
+    <!-- Иногда появляются полосы (просветы body) на границах ячеек, поэтому закрашиваю фон за game-board в такой  же цвет с помощью backdround-board-->
+    <div id="game-board"></div>
+
+    <div class="score-panel">
+      <p class="legend">Score: </p>
+      <p id="score-val">0</p>
+    </div>
+
+    <div class="group-btn">
+      <button id="pause-btn">| &nbsp;|</button>
+      <button id="help-btn">?</button>
+    </div>
+  </div>  
+
+  <div id="help-layer" class="game-layer">
+    <h2>Help</h2>
+    <h3>Smartphone:</h3>
+    <ul>
+      <li>Control — swipes</li>
+    </ul>
+    <h3>Desktop:</h3>
+    <ul>
+      <li>Control — buttons: "↑", "→", "↓", "←" <br> or buttons: "W", "D", "S", "A"</li>
+      <li>Pause — button "Escape"</li>
+      <li>Help — button "H"</li>
+    </ul>
+    <button id="btn-resume-help">Start</button>
+  </div>
+
+  <div id="pause-layer" class="game-layer">
+    <h2>Paused</h2>
+    <button id="btn-resume-pause">Resume</button>
+  </div>
+
+  <div id="gameOver-layer" class="game-layer">
+    <h2>Game over</h2>
+    <button id="btn-resume-game-over">Restart</button>
+  </div>
+
+
+</body>
+</html>

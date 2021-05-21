@@ -1,4 +1,4 @@
-import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead } from '/js/snake.js'
+import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead } from './js/snake.js'
 import { update as updateFood, draw as drawFood } from '/js/food.js'
 import { updateBomb, drawBomb } from '/js/bomb.js'
 import { checkCollision} from '/js/grid.js'

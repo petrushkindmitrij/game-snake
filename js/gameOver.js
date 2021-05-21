@@ -1,6 +1,6 @@
-import { getSnakeHead, snakeIntersection, onSnake } from '/js/snake.js'
-import { checkCollision} from '/js/grid.js' 
-import { getBombStatus, getBombPosition} from '/js/bomb.js' 
+import { getSnakeHead, snakeIntersection, onSnake } from './snake.js'
+import { checkCollision} from './grid.js' 
+import { getBombStatus, getBombPosition} from './bomb.js' 
 
 const divGameOver = document.getElementById('gameOver-layer');
 const btnGameOver = document.getElementById('btn-resume-game-over');

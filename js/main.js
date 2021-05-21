@@ -1,11 +1,11 @@
-import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead } from '/js/snake.js'
-import { update as updateFood, draw as drawFood } from '/js/food.js'
-import { updateBomb, drawBomb } from '/js/bomb.js'
-import { checkCollision} from '/js/grid.js'
-import { initialSwipe} from '/js/input.js'
-import { initialPauseLayer, getPauseStatus} from '/js/pause.js'
-import { initialGameOverLayer, checkDeath} from '/js/gameOver.js'
-import { initialHelpLayer} from '/js/help.js'
+import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead } from 'js/snake.js'
+import { update as updateFood, draw as drawFood } from 'js/food.js'
+import { updateBomb, drawBomb } from 'js/bomb.js'
+import { checkCollision} from 'js/grid.js'
+import { initialSwipe} from 'js/input.js'
+import { initialPauseLayer, getPauseStatus} from 'js/pause.js'
+import { initialGameOverLayer, checkDeath} from 'js/gameOver.js'
+import { initialHelpLayer} from 'js/help.js'
 
 let lastRenderTime = 0;
 const gameBoard = document.getElementById('game-board');

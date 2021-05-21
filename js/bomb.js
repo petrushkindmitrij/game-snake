@@ -1,5 +1,5 @@
-import { onSnake, expandSnake } from 'js/snake.js'
-import { randomGridPosition } from 'js/grid.js'
+import { onSnake, expandSnake } from '/js/snake.js'
+import { randomGridPosition } from '/js/grid.js'
 
 let bomb = { x: 2, y: 4};
 let bombStatus = false;

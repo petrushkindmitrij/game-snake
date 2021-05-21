@@ -1,4 +1,4 @@
-import { getHelpStatus } from 'js/help.js';
+import { getHelpStatus } from '/js/help.js';
 
 const divPauseLayer = document.getElementById('pause-layer');
 const btnResumePause = document.getElementById('btn-resume-pause');

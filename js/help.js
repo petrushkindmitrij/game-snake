@@ -1,4 +1,4 @@
-import{ hidePauseLayer, setPauseStatus} from 'js/pause.js';
+import{ hidePauseLayer, setPauseStatus} from '/js/pause.js';
 
 
 const divHelpLayer = document.getElementById('help-layer');

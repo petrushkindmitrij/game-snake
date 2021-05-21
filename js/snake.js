@@ -1,5 +1,5 @@
-import { getGridSize, MODE_OFF_WALL } from "js/grid.js"
-import { getInputDirection } from "js/input.js"
+import { getGridSize, MODE_OFF_WALL } from "/js/grid.js"
+import { getInputDirection } from "/js/input.js"
 
 
 export const SNAKE_SPEED = 5;

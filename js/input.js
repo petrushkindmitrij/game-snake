@@ -1,6 +1,6 @@
-import { checkDeath, restartGame } from 'js/gameOver.js';
-import { getPauseStatus, pauseToggle} from 'js/pause.js'
-import { getHelpStatus, helpToggle} from 'js/help.js'
+import { checkDeath, restartGame } from '/js/gameOver.js';
+import { getPauseStatus, pauseToggle} from '/js/pause.js'
+import { getHelpStatus, helpToggle} from '/js/help.js'
 
 // -------------Для свайпов----------------
 const MIN_DIST = 30;
